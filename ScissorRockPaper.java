@@ -43,13 +43,13 @@ public class ScissorRockPaper {
 
 
         if((pick == 0 && AI == 0) || (pick == 1 && AI == 1) || (pick == 2 && AI == 2)) {
-            System.out.println("Round " + round + " : " + output + " too. It is a draw. AI - " + AI_points + " You - " + user_points);
+            System.out.println("Round " + round + " : " + output + " too. It is a draw. AI - " + AI_points + " You - " + user_points + "\n");
         } else if ((pick == 0 && AI == 2) || (pick == 1 && AI == 0) || (pick == 2 && AI == 1)) {
             user_points += 1;
-            System.out.println("Round " + round + " : " + output + ". You won. AI - " + AI_points + " You - " + user_points);
+            System.out.println("Round " + round + " : " + output + ". You won. AI - " + AI_points + " You - " + user_points + "\n");
         } else if ((pick == 2 && AI == 0) || (pick == 0 && AI == 1) || (pick == 1 && AI == 2)) {
             AI_points += 1;
-            System.out.println("Round " + round + " : " + output + ". You lost. AI - " + AI_points + " You - " + user_points);
+            System.out.println("Round " + round + " : " + output + ". You lost. AI - " + AI_points + " You - " + user_points + "\n");
         }
     }
 
