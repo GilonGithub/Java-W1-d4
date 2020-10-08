@@ -9,7 +9,7 @@ public class ScissorRockPaper {
         short AI_points = 0, user_points = 0;
         short round = 0;
 
-    while (user_points < 2 && AI_points < 2) {
+    while (user_points < 3 && AI_points < 3) {
 
         String output = "The computer is ";
         short pick = -1;
